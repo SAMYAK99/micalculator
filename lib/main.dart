@@ -22,6 +22,7 @@ class SimpleCalculator extends StatefulWidget {
   _SimpleCalculatorState createState() => _SimpleCalculatorState();
 }
 
+
 class _SimpleCalculatorState extends State<SimpleCalculator> {
   String equation = "0";
   String result = "0";
@@ -93,6 +94,7 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
           )),
     );
   }
+  
 
   @override
   Widget build(BuildContext context) {
